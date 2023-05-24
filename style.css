@@ -1,0 +1,450 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{font-family: 'Roboto Mono', monospace;}
+
+/********************************/
+/*************NAVBAR*************/
+/********************************/
+
+.navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.navparent{
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20.5%;
+}
+
+.logo h1{
+    font-size: 40px;
+    color: white
+}
+
+.menu ul{
+    padding-top: 0.7rem;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: grey;
+    font-size: 26px;
+    transition: color font-size 0.3s;
+}
+
+/********************************/
+/*************HEADER*************/
+/********************************/
+
+
+header{
+    padding-top: 20rem;
+    background-image: url(Fotoğraflar/stars-gf5fd75d52_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 757px;
+}
+
+.headertext{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.headertext h1{
+    font-size: 55px;
+}
+
+
+.headertext p{
+    font-size: 40px;
+}
+
+.headerparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#typing-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    animation: typing 5s steps(40), cursor-blink 0.5s infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes cursor-blink {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+
+/********************************/
+/*************ABOUT*************/
+/********************************/
+
+.about{
+  background-color: rgb(17, 17, 17);
+  padding: 9.5rem 0rem 0rem 0rem
+}
+
+.aboutParent{
+  background-color: rgb(19, 19, 19);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  height: 575px;
+}
+
+.myprofile{
+  width: 47%;
+  position: relative;
+  display: inline-block;
+  padding: 0rem 1rem;
+}
+
+.aboutme{
+  width: 50%;
+  padding: 1rem 2rem;
+}
+
+.myphoto{
+  width: 100%;
+  background-image: url(Fotoğraflar/Talha\ GÜLMEZ.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 380px;
+  z-index: 0;
+}
+
+.mydata{
+  width: 90%;
+  margin: auto;
+  padding: 2rem 4rem;
+}
+
+.mydata p{
+  color: white;
+}
+
+#mydataarea{
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 6.8rem;
+  margin-bottom: 2rem;
+  color: rgb(9, 124, 201);
+}
+
+.aboutmeText h1{
+  margin-bottom: 2rem;
+  font-size: 22.5px;
+  font-weight: bold;
+  color: rgb(9, 124, 201);
+}
+
+.aboutmeText p{
+  font-size: 17.5px;
+  color: white;
+}
+
+.aboutmeskills{
+  padding-top: 4rem;
+}
+
+.aboutmeskills h1{
+  font-size: 22.5px;
+  color: rgb(9, 124, 201);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#aboutmeskillshtml{
+  font-size: 17.5px;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+#aboutmeskillscss{
+  font-size: 17.5px;
+  color: white;
+  margin-left: 1rem;
+}
+
+/********************************/
+/************SERVİCES************/
+/********************************/
+
+.services{
+  background-color: rgb(17, 17, 17);
+  padding-top: 8rem;
+}
+
+.servicestext{
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.servicescards{
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicecard{
+  width: 45%;
+  text-align: center;
+}
+
+.servicescardslogo{
+  margin: auto;
+  width: 260px;
+  height: 260px;
+  border: 6px solid rgb(9, 124, 201);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi{
+  color: white;
+  font-weight: bold;
+  font-size: 150px;
+}
+
+.servicescardstext{
+  color: white;
+  margin-top: 3rem;
+  font-size: 30px;
+}
+
+/*********************************/
+/*************CONTACT*************/
+/*********************************/
+
+footer{
+  background-color: rgb(17, 17, 17);
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+
+.bi-linkedin{
+  color: rgb(10,102,194);
+}
+
+.contactme h1{
+  padding-bottom: 10rem;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+.phonenumber ul li i{
+  font-size: 30px;
+}
+
+.phonenumber ul li{
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+
+.phonenumber a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.phonenumber ul li i a{
+  color: white;
+}
+
+
+/*********************************/
+/*************MEDİASC*************/
+/*********************************/
+
+@media screen and (max-width:1226px) {
+
+
+  .container{
+    width: 98%;
+  }
+
+  /**************************/
+  /**********NAVBAR**********/
+  /**************************/
+
+  .navparent{
+    display: block;
+  }
+
+  .logo{
+    width: fit-content;
+    margin: auto;
+  }
+
+  .menu ul{
+    width: fit-content;
+    padding-top: 5rem;
+    margin: auto;
+    line-height: 50px;
+  }
+
+  .menu ul li{
+    display: block;
+  }
+
+  /**************************/
+  /**********HEADER**********/
+  /**************************/
+
+  .navbar{
+    position: relative;
+  }
+
+  header{
+    padding-top: 5rem;
+    height: 420px;
+  }
+
+  .headertext h1{
+    font-size: 35px;
+  }
+
+
+  .headertext p{
+    font-size: 25px;
+  }
+
+  /*************************/
+  /**********ABOUT**********/
+  /*************************/
+
+  .about{
+    padding: 5rem 0rem 0rem 0rem
+  }
+
+  .aboutParent{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .myprofile{
+    width: 100%;
+  }
+
+  .mydata{
+    width: 100%;
+    text-align: center;
+  }
+
+  #mydataarea{
+    margin-left: 0rem;
+  }
+
+  .aboutme{
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutmeskills{
+    text-align: center;
+  }
+
+  #aboutmeskillshtml{
+    margin-left: 0rem;
+  }
+
+  #aboutmeskillscss{
+    margin-left: 0rem;
+  }
+
+  /************************/
+  /********SERVİCES********/
+  /************************/
+
+  .services{
+    background-color: rgb(17, 17, 17);
+    padding-top: 8rem;
+  }
+  
+  .servicestext{
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+
+
+  .servicescards{
+    padding: 0rem 0rem;
+    display: block;
+  }
+  
+  .servicecard{
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  /*************************/
+  /*********CONTACT*********/
+  /*************************/
+
+
+
+}
